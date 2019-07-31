@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat:100,500&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: rgb(50,50,50);
+  font-size: 15px;
+  line-height: 20px;
+  margin:0;
+  margin-top: 0;
+
+}
+
+h2{
+  font-style: italic;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+}
+
+h3{
+  color: rgb(100,100,100);
+}
+
+a{
+  background: rgba(174, 255, 209, 0.3);
+  text-decoration: none;
+  font-style: italic;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(100,100,100);
+}
+
+a:hover{
+  background: rgba(174, 255, 209, 1)
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.text-margins{
+  margin: auto 50px;
+}
+
+.text{
+  margin: 50px 50px;
+}
+
+/*.container{
+  margin: 0px auto;
+}*/
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 992px;
+  }
+}
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 768px;
+  }
+}
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 576px;
+  }
+}
